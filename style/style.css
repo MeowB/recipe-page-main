@@ -1,0 +1,74 @@
+@font-face {
+  font-family: outfit;
+  src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: young-serif;
+  src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: outfit, sans-serif;
+  color: #5f574e;
+}
+
+h1, h2 {
+  font-family: youg-serif;
+  color: #302d2c;
+}
+
+header img {
+  width: 100%;
+}
+header h1 {
+  margin: 20px;
+}
+header p {
+  margin: 20px;
+}
+
+.preparation {
+  margin: 20px;
+  padding: 30px;
+  background-color: #fff5fa;
+  border-radius: 15px;
+}
+.preparation h2 {
+  color: #7b284f;
+  font-family: outfit;
+  font-size: 1.3em;
+}
+.preparation ul {
+  margin: 10px 30px;
+}
+.preparation ul li {
+  margin-bottom: 10px;
+}
+.preparation ul li span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ingredients {
+  border-bottom: 1px solid #e4ded8;
+  margin: 20px;
+  padding-bottom: 30px;
+}
+.ingredients h2 {
+  font-size: 2em;
+  color: #5f574e;
+  margin-bottom: 20px;
+}
+.ingredients ul {
+  padding-left: 30px;
+}
+.ingredients ul li {
+  margin-bottom: 10px;
+}
+.ingredients ul li span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*# sourceMappingURL=style.css.map */
