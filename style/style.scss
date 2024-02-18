@@ -100,3 +100,79 @@ header{
 		}
 	}
 }
+
+.instructions {
+	
+	h2 {
+		font-size: 2em;
+		color: $c-wenge_brown;
+		margin: 20px;
+	}
+
+	li {
+		margin: 45px;
+		padding-left: 20px;
+	}
+
+
+	border-bottom: 1px solid $c-light_grey;
+	margin: 0 25px;
+}
+
+.nutrition {
+	h2 {
+		font-size: 2em;
+		color: $c-wenge_brown;
+		margin: 20px;
+	}
+
+	p {
+		margin: 20px;
+	}
+	
+	table {
+		border-collapse: collapse;
+		text-align: center;
+		margin: 0 20px;
+		width: calc(100% - 40px);
+
+		td {
+			border-bottom: 1px solid $c-light_grey;
+			padding: 15px 40px;
+		}
+
+		td:last-child {
+			font-weight: bold;
+			text-align: left;
+		}
+
+		tr:last-child {
+			td {
+				border-bottom: none;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 600px) {
+	body {
+		background-color: $c-eggshell;
+	}
+
+	.wrapper {
+		max-width: 800px;
+		background-color: $c-white;
+		border-radius: 20px;
+		margin: 50px auto;
+
+		header {
+			padding-top: 20px;
+			img {
+				width: calc(100% - 40px);
+				margin: auto;
+				display: block;
+				border-radius: 20px;
+			}
+		}
+	}
+}

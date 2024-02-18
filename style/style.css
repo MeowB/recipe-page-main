@@ -71,4 +71,66 @@ header p {
   vertical-align: middle;
 }
 
+.instructions {
+  border-bottom: 1px solid #e4ded8;
+  margin: 0 25px;
+}
+.instructions h2 {
+  font-size: 2em;
+  color: #5f574e;
+  margin: 20px;
+}
+.instructions li {
+  margin: 45px;
+  padding-left: 20px;
+}
+
+.nutrition h2 {
+  font-size: 2em;
+  color: #5f574e;
+  margin: 20px;
+}
+.nutrition p {
+  margin: 20px;
+}
+.nutrition table {
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 20px;
+  width: calc(100% - 40px);
+}
+.nutrition table td {
+  border-bottom: 1px solid #e4ded8;
+  padding: 15px 40px;
+}
+.nutrition table td:last-child {
+  font-weight: bold;
+  text-align: left;
+}
+.nutrition table tr:last-child td {
+  border-bottom: none;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: #f3e6d8;
+  }
+
+  .wrapper {
+    max-width: 800px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 50px auto;
+  }
+  .wrapper header {
+    padding-top: 20px;
+  }
+  .wrapper header img {
+    width: calc(100% - 40px);
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
